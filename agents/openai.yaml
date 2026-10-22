@@ -1,0 +1,6 @@
+interface:
+  display_name: "视频学习笔记"
+  short_description: "引导安装 B站与 YouTube 扩展，导出字幕并生成可指定学习时长的本地笔记"
+  default_prompt: "使用 $video-study-notes 处理这个 B站或 YouTube 视频链接，导出字幕到本地，并生成默认 5 分钟的中文学习笔记。"
+policy:
+  allow_implicit_invocation: true
